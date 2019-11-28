@@ -74,8 +74,8 @@ To simulate discovery and communication the project uses MQTT channel to simulat
 
 ### Discovery Protocol
 
-A sample of the code to simulate a discovery node is shown in the file (discovery_node_example.js)[./discovery_node_example.js].
+A sample of the code to simulate a discovery node is shown in the file [discovery_node_example.js](./discovery_node_example.js).
 
 ### Communication Protocol
 
-Sample code of a node participating in communication is given in th file (communication_node_example.js)[./communication_node_example.js]
+Sample code of a node participating in communication is given in th file [communication_node_example.js](./communication_node_example.js)
