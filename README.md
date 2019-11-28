@@ -67,3 +67,15 @@ Select the **Discovery** flow and click on **Deploy** button on the top. And to 
 ![Image 3](doc/img3.png)
 
 Discovery protocol will be running in the **Discovery Protocol** tab and communication protocol will be running in **Communication Protocol** tab.
+
+## Implementation
+
+To simulate discovery and communication the project uses MQTT channel to simulate wireless communication channel. Every node belong belong to one or more channel which simulate that the nodes can in communication range.
+
+### Discovery Protocol
+
+A sample of the code to simulate a discovery node is shown in the file (discovery_node_example.js)[./discovery_node_example.js].
+
+### Communication Protocol
+
+Sample code of a node participating in communication is given in th file (communication_node_example.js)[./communication_node_example.js]
