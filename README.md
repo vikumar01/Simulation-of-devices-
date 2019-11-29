@@ -58,6 +58,16 @@ To do so, we should first open the menu from the top left button and the click i
 
 ![Image 2](doc/img2.png)
 
+### Setting up as AWS Lambda
+
+To setup an AWS lambda mailer function
+
+1. Create a new lambda function by navigating to the AWS Lambda console and click create new function.
+2. Create a a blank template
+3. Add the code for the lambda handler from `lambda_handler.py`
+4. Add an API layer with an API key
+5. Include the API key in the sink node http request
+
 ## Running Simulation
 
 ### Discovery
@@ -74,11 +84,11 @@ To simulate discovery and communication the project uses MQTT channel to simulat
 
 ### Discovery Protocol
 
-A sample of the code to simulate a discovery node is shown in the file (discovery_node_example.js)[./discovery_node_example.js].
+A sample of the code to simulate a discovery node is shown in the file [discovery_node_example.js](./discovery_node_example.js).
 
 ### Communication Protocol
 
-Sample code of a node participating in communication is given in th file (communication_node_example.js)[./communication_node_example.js]
+Sample code of a node participating in communication is given in th file [communication_node_example.js](./communication_node_example.js)
 
 # Screenshots
 
