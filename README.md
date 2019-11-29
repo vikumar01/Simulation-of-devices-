@@ -79,3 +79,17 @@ A sample of the code to simulate a discovery node is shown in the file (discover
 ### Communication Protocol
 
 Sample code of a node participating in communication is given in th file (communication_node_example.js)[./communication_node_example.js]
+
+# Screenshots
+
+## Discovery Protocol
+
+![Discovery Protocol](./doc/discovery.png)
+
+## Communication Protocol
+
+![Communication Protocol](./doc/communication.png)
+
+## Dashboard
+
+![Dasboard](./doc/dashboard.png)
